@@ -1,5 +1,6 @@
 const print = @import("std").debug.print;
 
 pub fn main() void {
-    print("change the file name then zig init-exe\n", .{});
+    var x = [_]i32{ 1, 2, 3 };
+    print("The array in x is {x}", .{x});
 }
